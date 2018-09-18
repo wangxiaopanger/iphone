@@ -2,7 +2,7 @@ $(function () {
     $("header .list").click(function () {
         $(".meaubox").slideDown();
     })
-    $(".meaubox .top ul li i").first().click(function () {
+    $(".meaubox .top ul li").first().click(function () {
         $(".meaubox").slideUp();
     })
 
@@ -20,4 +20,16 @@ $(function () {
         $(this).css("display", "none");
     })
 
+
+    $(window).resize(function () {
+        if ($(window).width() > 767) {
+            $(".add").css("display", "none");
+            $(".re").css("display", "none");
+            $(".small").css("display", "none");
+            $(".meaubox").slideUp();
+        }
+        else{
+            $(".add").css("display", "block");
+        }
+    })
 })

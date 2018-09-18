@@ -74,39 +74,19 @@ header .icon-gouwudai {
 .meaubox .top ul {
     width: 100%;
     height: 48px;
-
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45% 0 30px;
 }
 
-.meaubox .top ul li {
-    width: 48px;
-    height: 48px;
-    float: left;
-    margin-left: 6px;
-}
-
-.meaubox .top ul li:nth-child(2) {
-    margin-left: -70px;
-}
-
-.meaubox .top ul li i {
+.meaubox .top li {
     font-size: 32px;
-    font-style: normal;
-    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
 }
 
-.meaubox .top ul li .iconfont {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    line-height: 48px;
-}
-
-.meaubox .top ul li:first-child {
-    margin-right: 284px;
-}
-
-.meaubox .top ul li a:hover .iconfont {
-    color: #b7b7b7;
+.meaubox .top li:nth-child(2) {
+    font-size: 28px;
 }
 
 .meaubox input {
@@ -136,7 +116,7 @@ header .icon-gouwudai {
 }
 
 .meaubox .sousuo .iconfont {
-    font-size: 16px;
+    font-size: 24px;
     color: #979797;
     text-align: center;
     line-height: 37px;
@@ -590,31 +570,37 @@ header .icon-gouwudai {
 @media screen and (max-width: 768px) {
     .gg .gg1 {
         width: 100%;
+        margin: 0 0 12px 0;
         background-image: url("https://www.apple.com/cn/home/images/promos/shop_for_college_small.jpg");
     }
 
     .gg .gg2 {
         width: 100%;
+        margin: 0 0 12px 0;
         background-image: url("https://www.apple.com/v/home/ds/images/promos/behind_the_mac_peter_small.jpg");
     }
 
     .gg .gg3 {
         width: 100%;
+        margin: 0 0 12px 0;
         background-image: url("https://www.apple.com/cn/home/images/promos/iphone_x_a11_small.jpg");
     }
 
     .gg .gg4 {
         width: 100%;
+        margin: 0 0 12px 0;
         background-image: url("https://www.apple.com/v/home/ds/images/promos/iphone_8_small.jpg");
     }
 
     .gg .gg5 {
         width: 100%;
+        margin: 0 0 12px 0;
         background-image: url("https://www.apple.com/cn/home/images/half-width-promos/trade_up_small.jpg");
     }
 
     .gg .gg6 {
         width: 100%;
+        margin: 0 0 12px 0;
         background-image: url("https://www.apple.com/cn/home/images/promos/three_rings_small.jpg");
     }
 }
